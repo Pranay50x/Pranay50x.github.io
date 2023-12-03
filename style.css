@@ -2,7 +2,8 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     size: 20px;
     color: aliceblue;
-    background-color: black;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgUptdoxTbQEnoTMa2zb71kzLCB_W0NlUOsBBXKnZwm7iU5YChFV37L3YcxfhSkre3gTw&usqp=CAU);
+    background-size: cover;
 
 }
 .f{
