@@ -35,37 +35,33 @@ div{
  
 }
 a:link {
-  color: cyan;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: red; 
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: white;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-@font-face {
-  font-family: 'Roboto';
-  src: url('/fonts/Roboto-Regular.ttf') format('truetype'),
-       url('/fonts/Roboto-Regular.woff2') format('woff2'),
-       url('/fonts/Roboto-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-#m{
-  margin-bottom: 40px;
-}
+    color: cyan;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: cyan; 
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype'),
+         url('/fonts/Roboto-Regular.woff2') format('woff2'),
+         url('/fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
