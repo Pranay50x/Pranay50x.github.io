@@ -1,56 +1,71 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    size: 20px;
-    color: aliceblue;
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgUptdoxTbQEnoTMa2zb71kzLCB_W0NlUOsBBXKnZwm7iU5YChFV37L3YcxfhSkre3gTw&usqp=CAU);
-    background-size: cover;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  size: 20px;
+  color: black; 
+  background: url(https://wallpapers.com/images/high/dark-theme-background-x6z5qnhaqcrqd0ky.webp);
+  background-size: cover;
 
 }
 .f{
-    border: cyan;
-    border-style: inset;
-    border-radius: 5px;
-    border-width: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    width: fit-content;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: solid  rgb(0, 255, 85); 
+  box-shadow: 0 0 10px aliceblue;
+  border-style: inset;
+  border-radius: 5px;
+  color: aliceblue;
+  border-width: 5px;
+  border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 div{
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 5px;
-   
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: solid;
+  border-color: rgb(0, 255, 255); 
+  border-collapse: separate;
+  box-shadow: 0 0 10px rgba(244, 244, 244, 0.959);  
+  color: aliceblue; 
+  border-radius: 10px;
+ 
 }
 a:link {
-    color: cyan;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: cyan; 
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: cyan;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto-Regular.ttf') format('truetype'),
-         url('/fonts/Roboto-Regular.woff2') format('woff2'),
-         url('/fonts/Roboto-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red; 
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.ttf') format('truetype'),
+       url('/fonts/Roboto-Regular.woff2') format('woff2'),
+       url('/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+#m{
+  margin-bottom: 40px;
+}
