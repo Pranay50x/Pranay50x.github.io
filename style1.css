@@ -1,0 +1,142 @@
+*{
+    margin-top: 10px;
+    padding: 0%;
+}
+.title{
+    background-color: black;
+    height: 50px;
+    font-size: xx-large;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px aliceblue;
+    border: double aliceblue;
+}
+a{
+    margin-right: 40px;
+    font-size: xx-large;
+    margin-left: 20px;
+}
+div{
+    color: aliceblue;
+}
+b:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+a:link{
+    color: rgb(6, 14, 254,0.3);
+    text-decoration: none;
+}
+a:visited{
+    color: aqua; 
+}
+a:hover{
+    transition: 0.5s;
+    animation-delay: 0.1s;
+    color: rgb(162, 10, 249);
+    text-decoration: underline;
+}
+body{
+    background-color: black;
+}
+#in{
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+#icon{
+    margin-right: 1000px;
+    border-radius: 50%;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+a{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    text-shadow:0 0 2px aqua;
+}
+#about{
+    margin-right: 20px;
+}
+span{
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: none
+}
+span:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+div,nav{
+    font-family: 'popins',sans-serif;
+    font-size: larger
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#welcome{
+    text-align: center;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Roboto',sans-serif;
+    font-size: xx-large;
+    border:solid aliceblue;
+    box-shadow: 0 0 5px aliceblue;
+    text-shadow: 0 0 5px;
+    font-weight: 300;
+    border-radius: 5px;
+}
+#line1{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    text-shadow: 0 0 2px aliceblue;
+    border-bottom: solid 3px aliceblue;
+    border-radius: 2px;
+    font-size: larger;
+    margin-bottom: 30px;
+
+}
+#fblog{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#about{
+    margin-left: 0px;
+}
+ul{
+    text-shadow: 0 0 2px aliceblue;
+    font-size: xx-large;
+}
+#ai:hover,#ml:hover,#web:hover,#ds:hover{
+    transform: scaleX(-1);
+}
+#ai,#ds,#ml,#web{
+    margin-left: 46%;
+    border-radius: 30%;
+    box-shadow: 0 0 10px aliceblue;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+.interest{
+    text-align: center;
+    font-size: larger;
+    text-shadow: 0 0 2px;
+}
+#blog{
+    font-size: larger;
+}
+footer{
+    background-color: black;
+    border: double aliceblue;
+    box-shadow: 0 0 5px aliceblue;
+}
+#Instagram,#Github,#Twitter{
+    margin-left: 20px;
+}
+#social{
+    margin-left: 20px;
+}
+#last{
+    margin-bottom: 40px;
+}
