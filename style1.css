@@ -10,6 +10,9 @@
     border-radius: 10px;
     box-shadow: 1px 1px 30px aliceblue;
     border: double aliceblue;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 a{
     margin-right: 40px;
@@ -40,13 +43,14 @@ body{
     background-color: black;
 }
 #in{
-    margin-left: 60px;
+    
     margin-right: 20px;
     margin-top: 0px;
 }
 #icon{
-    margin-right: 1000px;
+    justify-items: center;
     border-radius: 50%;
+    display: inline-flex;
     
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
@@ -98,7 +102,7 @@ div,nav{
 
 }
 #fblog{
-    margin-right: 0px;
+    margin-right: 100px;
     margin-left: 0px;
 }
 #about{
