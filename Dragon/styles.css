@@ -1,65 +1,66 @@
 body {
-    background-color: black;
-    font-family: monospace;
-  }
-  
-  #text {
-    background-color: black;
-    color: #ffffff;
-    padding: 10px;
-    border: 1px solid aliceblue;
-    border-radius: 5px;
-  }
-  
-  #game {
-    max-width: 500px;
-    max-height: 400px;
-    background-color: black;
-    color: #ffffff;
-    margin: 30px auto 0px;
-    padding: 10px;
-    border: 1px solid aliceblue;
-    border-radius: 1%;
-  }
-  
-  #stats {
-    border: 1px solid aliceblue;
-    padding: 5px;
-    color: #0a0a23;
-    background-color: springgreen;
-    border-radius: 5px;
-  }
-  #controls{
-    border: 1px solid aliceblue;
-    padding: 5px;
-    color: #0a0a23;
-    background-color: black;
-    border-radius: 5px;
-  }
-  
-  #monsterStats {
-    display: none;
-    border: 1px solid aliceblue;
-    padding: 5px;
-    color: #ffffff;
-    background-color: #c70d0d;
-    border-radius: 5px;
-  }
-  
-  .stat {
-    padding-right: 10px;
-  }
-  
-  button {
-    cursor: pointer;
-    color: aliceblue;
-    background-color: orchid;
-    /*background-image: linear-gradient(purple,purple);*/
-    border: 3px solid #fc03d3;
-    font-family: monospace;
-  }
+  background-color: black;
+  font-family: monospace;
+}
 
-  button:hover{
-    background-color: purple;
-    transition: 0.3s;
-  }
+#text {
+  background-color: black;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+}
+
+#game {
+  max-width: 550px;
+  max-height: 400px;
+  background-color: black;
+  color: #ffffff;
+  margin: 30px auto 0px;
+  padding: 10px;
+  border: 1px solid aliceblue;
+  border-radius: 1%;
+}
+
+#stats {
+  border: 1px solid aliceblue;
+  padding: 5px;
+  color: #0a0a23;
+  background-color: springgreen;
+  border-radius: 5px;
+}
+#controls{
+  border: 1px solid aliceblue;
+  padding: 5px;
+  color: #0a0a23;
+  background-color: black;
+  border-radius: 5px;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid aliceblue;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+  border-radius: 5px;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: aliceblue;
+  background-color: orchid;
+  /*background-image: linear-gradient(purple,purple);*/
+  border: 3px solid #fc03d3;
+  font-family: monospace;
+  margin-right: 5px;
+}
+
+button:hover{
+  background-color: purple;
+  transition: 0.3s;
+}
