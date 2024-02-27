@@ -87,7 +87,7 @@ div,nav{
     font-size: xx-large;
     border:solid aliceblue;
     box-shadow: 0 0 5px aliceblue;
-    text-shadow: 0 0 5px;
+    text-shadow: 0 0 2px;
     font-weight: 300;
     border-radius: 5px;
 }

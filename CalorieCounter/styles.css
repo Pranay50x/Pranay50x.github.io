@@ -1,0 +1,104 @@
+
+  
+  body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: aliceblue;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 680px;
+  }
+  
+  h1,
+  .container,
+  .output {
+    margin: 20px auto;
+  }
+  
+  label,
+  legend {
+    font-weight: bold;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    min-height: 24px;
+
+  }
+  
+  input,
+  select {
+    min-height: 24px;
+    color: black;
+  }
+  
+  fieldset,
+  label,
+  button,
+  input,
+  select {
+    margin-bottom: 10px;
+  }
+  
+  .output {
+    border: 2px solid aliceblue;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .output span {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .surplus {
+    color: red;
+  }
+  
+  .deficit {
+    color: springgreen;
+  }
+
+  #clear,#add-entry{
+    margin-left: 10px;
+  }
+
+  select{
+    margin-left: 10px;
+  }
+
+  fieldset,option{
+    box-shadow: 0 0 4px;
+  }
+
+  #budget{
+    background-color: aliceblue;
+    color: black;
+  }
+  button:hover{
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 0 0 5px black;
+  }
+  
